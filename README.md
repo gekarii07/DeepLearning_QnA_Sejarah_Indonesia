@@ -10,7 +10,7 @@ Penelitian ini menggunakan pembagian dataset 70% untuk training, 15% untuk valid
 | BERT Multilingual        | 57.26% | 83.39%   |
 | DistilBERT Multilingual  | 53.15% | 81.57%   |
 
-Hasil evaluasi menunjukkan bahwa BERT lebih unggul dalam akurasi, sedangkan DistilBERT lebih efisien dalam penggunaan sumber daya. Penelitian ini memberikan kontribusi pada pengembangan sistem QA berbasis sejarah Indonesia dengan mendukung aksesibilitas informasi secara efektif. Hasil akhir project ini berupa API berbasis FastAPI yang dikembangkan untuk memfasilitasi penggunaan model dalam skenario nyata.
+Berdasarkan hasil evaluasi, BERT Multilingual merupakan model yang lebih baik dibandingkan DistilBERT Multilingual dalam memberikan jawaban yang akurat berdasarkan evaluasi. BERT Multilingual menunjukkan kinerja yang lebih baik pada test set, yang lebih menggambarkan bagaimana model akan berperforma pada data nyata. Sistem ini diimplementasikan melalui API yang mendukung integrasi dengan berbagai aplikasi, sehingga meningkatkan aksesibilitas informasi sejarah secara cepat dan relevan. Hasil akhir project ini berupa API berbasis FastAPI yang dikembangkan untuk memfasilitasi penggunaan model dalam skenario nyata.
 
 ## Cara Menjalankan API
 
