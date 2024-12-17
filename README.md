@@ -29,8 +29,12 @@ Untuk menjalankan API ini, ikuti langkah-langkah berikut:
    ```bash
    uvicorn api:app --reload
 
+## Hasil Fine Tuning Model 
+1. BERT Multilingual: https://huggingface.co/gekkarii07/qna-sejarah-indonesia-bert-multilingual
+2. DistilBERT Multilingual: https://huggingface.co/gekkarii07/qna-sejarah-indonesia-distilbert-multilingual
+
 ## Kontributor
 1. Gusti Ayu Wahyu Whurapsari
 2. Luh Putu Ary Purwanthi
-3. Gusti Ayu Wahyu Whurapsari 
+3. Ni Putu Jenifer Putri Ariadi
 
