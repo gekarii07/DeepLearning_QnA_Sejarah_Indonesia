@@ -10,16 +10,27 @@ Penelitian ini menggunakan pembagian dataset 70% untuk training, 15% untuk valid
 | BERT Multilingual        | 57.26% | 83.39%   |
 | DistilBERT Multilingual  | 53.15% | 81.57%   |
 
-API berbasis FastAPI dikembangkan untuk memfasilitasi penggunaan model dalam skenario nyata. Hasil evaluasi menunjukkan bahwa BERT lebih unggul dalam akurasi, sedangkan DistilBERT lebih efisien dalam penggunaan sumber daya.
-
-Penelitian ini memberikan kontribusi pada pengembangan sistem QA berbasis sejarah Indonesia dengan mendukung aksesibilitas informasi secara efektif.
+Hasil evaluasi menunjukkan bahwa BERT lebih unggul dalam akurasi, sedangkan DistilBERT lebih efisien dalam penggunaan sumber daya. Penelitian ini memberikan kontribusi pada pengembangan sistem QA berbasis sejarah Indonesia dengan mendukung aksesibilitas informasi secara efektif. Hasil akhir project ini berupa API berbasis FastAPI yang dikembangkan untuk memfasilitasi penggunaan model dalam skenario nyata.
 
 ## Cara Menjalankan API
 
 Untuk menjalankan API ini, ikuti langkah-langkah berikut:
 
 1. **Clone repository ini:**
-
    ```bash
    git clone https://github.com/gekarii07/DeepLearning_QnA_Sejarah_Indonesia
+2. **Arahkan ke direktori api:**
+   ```bash
+   cd DeepLearning_QnA_Sejarah_Indonesia/api
+3. **Install dependencies dengan pip:**
+   ```bash
+   pip install -r requirements.txt
+4. **Jalankan API dengan uvicorn:**
+   ```bash
+   uvicorn api:app --reload
+
+## Kontributor
+1. Gusti Ayu Wahyu Whurapsari
+2. Luh Putu Ary Purwanthi
+3. Gusti Ayu Wahyu Whurapsari 
 
