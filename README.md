@@ -1,14 +1,12 @@
 # Question and Answering Sejarah Indonesia Menggunakan BERT dan DistilBERT Multilingual
-Project ini bertujuan untuk membantu siswa memperoleh informasi spesifik secara cepat dan akurat terkait topik sejarah Indonesia. Dataset yang digunakan mencakup 2.436 pasangan pertanyaan, konteks, dan jawaban, yang diolah melalui proses preprocessing data seperti lowering, mengubah format menjadi JSON, dan tokenisasi.
-
-Penelitian ini menggunakan pembagian dataset 70% untuk training, 15% untuk validation, dan 15% untuk test. Model dilatih dan dievaluasi menggunakan metrik Exact Match (EM) dan F1-Score, menghasilkan performa model sebagai berikut:
+Project ini bertujuan untuk membantu siswa memperoleh informasi spesifik secara cepat dan akurat terkait topik sejarah Indonesia. Dataset yang digunakan mencakup 2.436 pasangan pertanyaan, konteks, dan jawaban, yang diolah melalui proses preprocessing data seperti lowering, mengubah format menjadi JSON, dan tokenisasi. Project ini menggunakan pembagian dataset 70% untuk training, 15% untuk validation, dan 15% untuk test. Model dilatih dan dievaluasi menggunakan metrik Exact Match (EM) dan F1-Score, menghasilkan performa model sebagai berikut:
 
 | Model                   | EM     | F1-Score |
 |-------------------------|--------|----------|
 | BERT Multilingual        | 57.26% | 83.39%   |
 | DistilBERT Multilingual  | 53.15% | 81.57%   |
 
-Berdasarkan hasil evaluasi, BERT Multilingual merupakan model yang lebih baik dibandingkan DistilBERT Multilingual dalam memberikan jawaban yang akurat berdasarkan evaluasi. BERT Multilingual menunjukkan kinerja yang lebih baik pada test set, yang lebih menggambarkan bagaimana model akan berperforma pada data nyata. Sistem ini diimplementasikan melalui API yang mendukung integrasi dengan berbagai aplikasi, sehingga meningkatkan aksesibilitas informasi sejarah secara cepat dan relevan. Hasil akhir project ini berupa API berbasis FastAPI yang dikembangkan untuk memfasilitasi penggunaan model dalam skenario nyata.
+Berdasarkan hasil evaluasi, BERT Multilingual merupakan model yang lebih baik dibandingkan DistilBERT Multilingual dalam memberikan jawaban yang akurat berdasarkan evaluasi. BERT Multilingual menunjukkan kinerja yang lebih baik pada test set, yang lebih menggambarkan bagaimana model akan berperforma pada data nyata. Project ini diimplementasikan melalui API yang mendukung integrasi dengan berbagai aplikasi, sehingga meningkatkan aksesibilitas informasi sejarah secara cepat dan relevan. Hasil akhir berupa API berbasis FastAPI yang dikembangkan untuk memfasilitasi penggunaan model dalam skenario nyata.
 
 ## Cara Menjalankan API
 
